@@ -9,7 +9,7 @@ public class main {
 		try 
 		{
 			Args arg = new Args("l,p#,d*", args);
-			boolean logging = arg.getBoolean('l');
+			boolean logging = arg.getBoolean('l')
 			int port = arg.getInt('p');
 			String directory = arg.getString('d');
 			//executeApplication(logging, port, directory);
@@ -24,6 +24,6 @@ public class main {
 			System.out.println("bug 1");
 		}
 		
-		System.out.println("Program End.");
+		System.out.println("Program Ends now.");
 	}
 }
